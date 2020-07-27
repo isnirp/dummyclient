@@ -29,7 +29,7 @@ public class SockClient {
             socket = new Socket(host, port);
 
             return 1; /* success */
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
